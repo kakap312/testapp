@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>student app</title>
+    </head>
+    <link rel="stylesheet" href="style.css"> 
+    <body>
+        <nav>
+            <a href="cards.html">Cards</a>
+            <a href="discount.html">Discount</a>
+        </nav>
+        <div id="cardsection">
+            <form action="request.php" method="post">
+                <input type="text" placeholder="student Id" name="studentid"><br>
+                <input type="text" placeholder="Department" name="department"><br>
+                <input type="text" placeholder="Faculty" name="faculty"><br>
+                <input type="date" name="expirydate"><br>
+                <button type="submit" name="action" value="card"> Add Card</button>
+            </form>
+        </div>
+    </body>
+</html>

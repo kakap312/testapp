@@ -1,0 +1,36 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: #03d7b1;
+    text-align: right;
+    padding:20px;
+}
+nav a{
+    margin-left:10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#cardsection{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+#cardsection form input,button,input[type=date]{
+    margin-bottom: 10px;
+    padding:5px;
+    width: 400px;
+    height: 40px;
+    font-size: 18px;;
+
+}
+#cardsection form button{
+    background-color: #03d7b1;
+    border: none;
+}
+#cardsection form button:hover{
+    background-color: #02c09e;
+}
